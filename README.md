@@ -74,6 +74,10 @@ Viewing the details of this job, we can see the the `Run ID` matches what we pre
 
 And with that, we have a pipeline to train and deploy a new model and an endpoint that we can use to interact with it. Whether it's through Azure ML Studio directly or the Azure SDK for Python, Azure Automated ML can be leveraged to train and deploy highly performant models quickly and efficiently.
 
+## Architecture Diagram
+The overall flow of can be summarized in the diagram below:
+![alt text](.github/images/architecture-diagram.png)
+
 ##Future Enhancements
 For future enhancements for this project, I would have liked to make the Swagger UI work properly, allowing requests to be made directly from the UI rather than just seeing the example request and response bodies. Additionally, I would like to set up a pipeline with a different type of model with a different goal than classification, such as a Named Entity Recognition (NER) model to extract entities from text. While the pipeline would likely have many similarities, I imagine there are some aspects that would be different. Any other type of model would also be interesting to look at so that I can compare how the set-up may differ from one model to another.
 
